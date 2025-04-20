@@ -1,7 +1,3 @@
-Perfeito! Aqui está uma versão organizada e bem apresentada do seu novo README sobre **Programação**, incluindo a introdução explicativa, os conteúdos gratuitos com certificado e a tabela comparativa das linguagens **JavaScript, Python e Java**.
-
----
-
 # 🧠 Iniciando na Programação
 
 Aprender programação é como aprender uma nova forma de pensar. Com ela, conseguimos automatizar tarefas, criar aplicativos, desenvolver sistemas e até construir inteligência artificial.
@@ -32,11 +28,13 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 
 ## 💻 Comparativo entre Linguagens
 
-| Linguagem      | Facilidade de Aprendizado | Utilização             | Back-end / Front-end    | Pontos Fortes                                               | Pontos Fracos                          |
-| -------------- | ------------------------- | ---------------------- | ----------------------- | ----------------------------------------------------------- | -------------------------------------- |
-| **JavaScript** | Média                     | Web, Mobile            | Ambos                   | Ampla comunidade, execução no navegador, muitas bibliotecas | Pode ser confuso no início, assíncrono |
-| **Python**     | Alta                      | IA, Data Science, Web  | Principalmente Back-end | Sintaxe simples, usado em IA e automação                    | Menor performance em apps complexos    |
-| **Java**       | Média/Alta                | Web, Android, Sistemas | Principalmente Back-end | Robusto, multiplataforma, orientação a objetos forte        | Verbosidade e curva de aprendizado     |
+| Linguagem      | Facilidade de Aprendizado | Utilização                              | Back-end / Front-end     | Pontos Fortes                                               | Pontos Fracos                          |
+| -------------- | ------------------------- | --------------------------------------- | ------------------------ | ----------------------------------------------------------- | -------------------------------------- |
+| **Python**     | Fácil                     | IA, Data Science, Web, Scripts, Desktop | Principalmente Back-end¹ | Sintaxe simples, versátil, ótimo para iniciantes            | Menor performance em apps complexos    |
+| **JavaScript** | Média                     | Web, Mobile, APIs, Automatizações       | Ambos                    | Ampla comunidade, execução no navegador, muitas bibliotecas | Pode ser confuso no início, assíncrono |
+| **Java**       | Média/Alta                | Web, Android, Sistemas, Desktop         | Principalmente Back-end  | Robusto, multiplataforma, orientação a objetos forte        | Verbosidade e curva de aprendizado     |
+
+> **¹Python também pode ser usado no front-end com frameworks como Django (fullstack).**
 
 ---
 
@@ -71,7 +69,7 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 
 ---
 
-## 🎓 Curso com Certificado (pago)
+## 🎓 Curso com Certificado (Pago)
 
 - [Curso em Vídeo – Curso de Algoritmo](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
   > Curso estruturado, com certificado pago. Excelente para reforçar a lógica de programação.
@@ -95,14 +93,13 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 
 ## 🚀 Dica Final
 
-Não se preocupe em aprender tudo de uma vez. Comece pela **lógica de programação**, depois escolha uma linguagem (como Python ou JavaScript) e vá avançando com prática e projetos.
+Não se preocupe em aprender tudo de uma vez. Comece pela **lógica de programação**, depois escolha uma linguagem (como **Python** ou **JavaScript**) e vá avançando com **prática e projetos**. Aprender a programar é um processo contínuo — aproveite o caminho!
 
 ---
 
-:open_book: **[Material de Estudo](./ferramentas_de_estudo.md)**
+### 🧰 Outros materiais úteis:
 
-:open_book: **[Ferramentas Gestão](./ferramentas_gestao.md)**
-
-:open_book: **[Ferramentas Testes de API](./ferramentas_teste_api.md)**
-
-:open_book: **[Canais YouTube Ferramenta de Gestão](./canais_youtube_gestao.md)**
+:open_book: **[Material de Estudo](./ferramentas_de_estudo.md)**  
+:open_book: **[Ferramentas de Gestão](./ferramentas_gestao.md)**  
+:open_book: **[Ferramentas para Testes de API](./ferramentas_teste_api.md)**  
+:open_book: **[Canais do YouTube sobre Gestão](./canais_youtube_gestao.md)**
