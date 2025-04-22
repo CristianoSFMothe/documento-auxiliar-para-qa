@@ -1,95 +1,222 @@
-# 🧱 Frameworks de Automação de Testes
+# 🌐 Cypress — Automação de Testes E2E
 
-## 📌 O que é um Framework?
+## 📘 O que é o Cypress?
 
-Um **framework** é uma estrutura base composta por ferramentas, bibliotecas e boas práticas que facilita o desenvolvimento de aplicações ou a automação de processos — como é o caso da automação de testes.
+O **Cypress** é um framework de automação de testes end-to-end moderno, desenvolvido especialmente para aplicações web. Ele roda diretamente no navegador e oferece uma experiência de desenvolvimento rica, com recarregamento automático, execução visual dos testes e excelente integração com CI/CD.
 
-No contexto de **Qualidade de Software**, um framework de testes serve para padronizar, organizar e agilizar o processo de escrita, execução e manutenção de testes automatizados.
-
-> Ele oferece componentes reutilizáveis, integração com ferramentas de relatório, suporte a diferentes tipos de teste (UI, API, mobile, etc.) e muito mais.
+> Ideal para testes de interface (UI), validação de APIs e testes de comportamento do usuário.
 
 ---
 
-## 💡 Por que utilizar um Framework?
+## 🔗 Documentação Oficial
 
-- 🔄 **Reutilização de código**
-- 🧹 **Organização da estrutura de testes**
-- 🚀 **Agilidade na criação e manutenção**
-- 🔗 **Integração com pipelines de CI/CD**
-- 📊 **Geração de relatórios de execução**
-- 🧪 **Suporte a diferentes níveis de teste**
+📚 **[Why Cypress? - Documentação Oficial](https://docs.cypress.io/guides/overview/why-cypress)**
+
+> A explicação da proposta do Cypress, com exemplos de uso, vantagens e diferenciais.
 
 ---
 
-## 🌐 Principais Frameworks de Automação
+## 🎥 Aulas e Vídeos no YouTube
 
-Divididos por categoria, aqui estão os frameworks mais utilizados no mercado:
+Para quem prefere aprender na prática com vídeos, aqui estão alguns canais com playlists e tutoriais completos:
 
-### 🔹 **Web**
+### 📺 Canal **QAutomatizado**
 
-| Framework           | Linguagem         | Observações                                                           |
-| ------------------- | ----------------- | --------------------------------------------------------------------- |
-| **Cypress**         | JavaScript        | Foco em testes E2E rápidos, ótima documentação e fácil de configurar. |
-| **Playwright**      | JS/TS, Python, C# | Suporte a múltiplos navegadores e múltiplas linguagens.               |
-| **Selenium**        | Várias            | Robusto e consolidado no mercado, mas com curva de aprendizado maior. |
-| **TestCafe**        | JavaScript        | Não exige WebDriver, execução em paralelo com facilidade.             |
-| **Robot Framework** | Python            | Framework genérico com suporte a testes Web, fácil de ler e escrever. |
+🔗 [Playlist Cypress para Iniciantes](https://youtu.be/HW8DZD2o68w)
+
+> Série completa com automação desde o zero, explicando passo a passo como instalar, configurar e automatizar testes com Cypress.
 
 ---
 
-### 🔹 **API**
+### 📺 Canal **Agilizei**
 
-| Framework            | Linguagem          | Observações                                                                       |
-| -------------------- | ------------------ | --------------------------------------------------------------------------------- |
-| **Rest Assured**     | Java               | Muito utilizado para testes de API REST em Java.                                  |
-| **Supertest**        | JavaScript         | Fácil integração com frameworks Node.js, como Express.                            |
-| **Postman + Newman** | Nenhuma específica | Postman para testes manuais/automatizados, Newman para execução via CLI.          |
-| **Karate**           | DSL + Java         | Escrita simples, com suporte a API e testes Web.                                  |
-| **Cypress**          | JavaScript         | Apesar do foco em Web, também realiza testes de API com facilidade.               |
-| **Robot Framework**  | Python + DSL       | Com bibliotecas específicas, realiza testes de API com boa legibilidade.          |
-| **JMeter**           | Java               | Focado em testes de carga e performance, mas também usado para testes funcionais. |
-| **k6**               | JavaScript-like    | Leve, rápido e ótimo para testes de performance em APIs.                          |
+🔗 [Introdução ao Cypress](https://youtu.be/wIjtX0CPaw0)
+
+> Vídeo explicando os conceitos iniciais, comandos básicos e execução dos primeiros testes.
 
 ---
 
-### 🔹 **Mobile**
+### 📺 Canal **QA Hacks e Dicas**
 
-| Framework    | Linguagem   | Observações                                                                |
-| ------------ | ----------- | -------------------------------------------------------------------------- |
-| **Appium**   | Várias      | Open source, suporta Android e iOS, utiliza WebDriver.                     |
-| **Detox**    | JavaScript  | Foco em apps React Native, ótima performance em testes E2E.                |
-| **Espresso** | Java/Kotlin | Nativo para Android, mantido pelo Google.                                  |
-| **XCUITest** | Swift       | Nativo para iOS, mantido pela Apple.                                       |
-| **Maestro**  | DSL         | Foco em testes funcionais e E2E, execução rápida e simples em Android/iOS. |
+🔗 [Playlist de Cypress](https://www.youtube.com/watch?v=XZamVtEwZ_Y&list=PLBzB7PpRjH0oLLflTjpYnj3Dhyw_KFeXR)
+
+> Diversas aulas com foco prático em automação, uso de comandos personalizados e dicas para o dia a dia com Cypress.
 
 ---
 
-### 🔹 **Desktop**
+### 📺 Canal **QA Papito**
 
-| Framework        | Linguagem | Observações                                                           |
-| ---------------- | --------- | --------------------------------------------------------------------- |
-| **WinAppDriver** | C#, Java  | Automação para apps Windows, baseado no WebDriver.                    |
-| **Winium**       | C#        | Similar ao Selenium, voltado para aplicações Windows.                 |
-| **SikuliX**      | Várias    | Usa reconhecimento de imagem para automatizar qualquer coisa na tela. |
+🔗 [Testes Automatizados com Cypress](https://www.youtube.com/watch?v=FI65wNBKQkE)
+
+> Tutorial introdutório e direto ao ponto para começar a automatizar com Cypress em poucos minutos.
 
 ---
 
-## ⚖️ Vantagens e Desvantagens dos Frameworks
+### 📺 Canal **Talking About Testing**
 
-| Framework           | Vantagens                                              | Desvantagens                                                  |
-| ------------------- | ------------------------------------------------------ | ------------------------------------------------------------- |
-| **Cypress**         | Rápido, moderno, fácil de configurar                   | Suporte limitado a múltiplos navegadores                      |
-| **Selenium**        | Amplo suporte de linguagem e navegador                 | Pode ser mais lento e complexo de manter                      |
-| **Rest Assured**    | Poderoso para testes REST, integração com Java         | Exige conhecimento em Java                                    |
-| **Appium**          | Multiplataforma, gratuito                              | Mais difícil de configurar e manter                           |
-| **Playwright**      | Testes paralelos, múltiplas linguagens                 | Ainda ganhando adoção em larga escala                         |
-| **Robot Framework** | Fácil de aprender, legível, suporte a Web, API, Mobile | Pode ser limitado para testes muito complexos ou customizados |
-| **JMeter**          | Excelente para performance, comunidade forte           | Interface menos amigável, curva de aprendizado inicial        |
-| **k6**              | Scripts simples, ótimo para CI/CD, muito rápido        | Foco principal é em testes de carga (não funcionais)          |
+🔗 [Canal no YouTube](https://www.youtube.com/@TalkingAboutTesting)
+
+> Conteúdo aprofundado sobre Cypress, testes de software e qualidade de código, com vídeos atualizados, boas práticas e integrações com CI/CD.
 
 ---
 
-## 🔗 Recursos Complementares
+### 📺 Canal **QAzando**
 
-- :open_book: [Documentação da Qualidade](../Documentacao_da_qualidade/README.md)
-- :open_book: [Trilhas de Estudos QA](../Trilhas_de_estudos_QA/README.md)
+🔗 [Testes Automatizados com Cypress na prática](https://www.youtube.com/watch?v=3BtGP-DOYqo)
+
+> Aula prática sobre como configurar o ambiente, escrever testes e interpretar os resultados no Cypress.
+
+---
+
+## 🚀 Criação de um Projeto com Cypress
+
+### Pré-requisitos
+
+- Node.js instalado
+- IDE de preferência (ex: Visual Studio Code)
+
+---
+
+### 1. Inicialização do Projeto
+
+No terminal, dentro da pasta desejada:
+
+```bash
+npm init
+
+# ou
+
+npm init -y
+```
+
+Esse comando cria o `package.json`:
+
+```json
+{
+  "name": "bugbank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+```
+
+---
+
+### 2. Instalação do Cypress
+
+```bash
+npm install cypress@13.13.3 -D
+```
+
+> Instala o Cypress como dependência de desenvolvimento
+
+![instalacao_cypress](https://github.com/user-attachments/assets/6d36a1d7-670d-412e-9700-715df465664e)
+
+---
+
+### 3. Inicialização do Cypress
+
+```bash
+npx cypress open
+```
+
+> Pode solicitar permissões do firewall, especialmente no Windows.
+
+![permissao_execucao_firewall_windows](https://github.com/user-attachments/assets/d732dc0a-1c7b-4ed6-bad8-9d1de66afd5a)
+
+---
+
+## ⚙️ Configuração do Cypress
+
+### 1. Tela de Apresentação
+
+![apresentacao_cypress](https://github.com/user-attachments/assets/58190e25-d17d-4b55-9de7-3c3d6efe5157)
+
+---
+
+### 2. Tela de Boas-Vindas
+
+![tela_boas_vindas_cypres](https://github.com/user-attachments/assets/4c39203b-e61b-48a4-91a1-346c4be75f0f)
+
+- Escolha entre **E2E** e **Component**
+- Neste guia, focaremos em **E2E**
+
+---
+
+### 3. Estrutura Padrão
+
+![estrutura_padrao_cypress](https://github.com/user-attachments/assets/e99a8bdf-2b09-4d1e-b43f-e59dbde81e7f)
+
+---
+
+### 4. Seleção de Navegador
+
+![selecao_browser](https://github.com/user-attachments/assets/262b23f1-3479-4918-8297-16ef59e144ad)
+
+---
+
+### 5. Criar um Novo Arquivo de Teste
+
+![criar_novo_spec_de_teste](https://github.com/user-attachments/assets/d940de72-2498-41bb-93f6-dd21f4192704)
+
+---
+
+### 6. Nomeando o Arquivo `register.cy.js`
+
+![nomear_spec_teste](https://github.com/user-attachments/assets/0beec3df-3da3-42b8-a13b-aeb4436503d2)
+
+---
+
+### 7. Estrutura Básica do Arquivo
+
+![estrutura_basica](https://github.com/user-attachments/assets/de4696d9-85b8-45e3-b857-0b36920431e5)
+
+---
+
+### 8. Primeira Execução
+
+![primeira_execucao](https://github.com/user-attachments/assets/6661fd09-8caf-41d7-9678-3f54e29a24d7)
+
+---
+
+### 9. Estrutura Final de Pastas
+
+Após as configurações iniciais, essa será a estrutura esperada:
+
+```text
+cypress/
+│
+├── e2e/
+│   └── register.cy.js          # Arquivo de teste E2E
+│
+├── fixtures/
+│   └── example.json            # Massa de dados de exemplo
+│
+├── support/
+│   ├── commands.js             # Comandos customizados
+│   └── e2e.js                  # Arquivo de setup de testes
+│
+node_modules/                   # Pacotes instalados
+cypress.config.js               # Arquivo de configuração do Cypress
+package.json                    # Gerenciador de dependências
+package-lock.json               # Versões exatas das dependências
+```
+
+![estrutura_de_pastas](https://github.com/user-attachments/assets/f89e289b-5a3c-49f4-9c82-3a09b448e819)
+
+---
+
+## 🧰 Recursos Complementares
+
+- :bookmark: [Documentação Cypress](https://docs.cypress.io)
+- :open_book: [Frameworks de Teste](./frameworks.md)
+
+---
+
+📌 **Este projeto está em construção. Novas seções e exemplos serão adicionados em breve.**
