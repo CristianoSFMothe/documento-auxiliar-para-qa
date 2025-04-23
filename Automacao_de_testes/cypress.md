@@ -79,7 +79,7 @@ Esse comando cria o `package.json`:
 
 ```json
 {
-  "name": "bugbank",
+  "name": "seu-barriga-cypress",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -143,31 +143,31 @@ npx cypress open
 
 ### 4. Seleção de Navegador
 
-![selecao_browser](https://github.com/user-attachments/assets/262b23f1-3479-4918-8297-16ef59e144ad)
+![selecao_browser](https://github.com/user-attachments/assets/c41c9a6b-d190-4f50-a909-4b5ad63af469)
 
 ---
 
 ### 5. Criar um Novo Arquivo de Teste
 
-![criar_novo_spec_de_teste](https://github.com/user-attachments/assets/d940de72-2498-41bb-93f6-dd21f4192704)
+![criar_novo_spec_de_teste](https://github.com/user-attachments/assets/0afc14be-6b68-47fb-85a1-f9410fb648ac)
 
 ---
 
-### 6. Nomeando o Arquivo `register.cy.js`
+### 6. Renomear o `cypress\e2e\spec.cy.js` o para ``cypress\e2e\register.cy.js``
 
-![nomear_spec_teste](https://github.com/user-attachments/assets/0beec3df-3da3-42b8-a13b-aeb4436503d2)
+![renomear_spec_teste](https://github.com/user-attachments/assets/8f054740-33db-4790-b605-48f91616b704)
 
 ---
 
 ### 7. Estrutura Básica do Arquivo
 
-![estrutura_basica](https://github.com/user-attachments/assets/de4696d9-85b8-45e3-b857-0b36920431e5)
+![estrutura_basica](https://github.com/user-attachments/assets/3c2cfa96-db15-4bdf-b9fa-a69341e241f1)
 
 ---
 
 ### 8. Primeira Execução
 
-![primeira_execucao](https://github.com/user-attachments/assets/6661fd09-8caf-41d7-9678-3f54e29a24d7)
+![primeira_execucao](https://github.com/user-attachments/assets/33a4ef06-3cc3-48ea-be2b-b629358a24ea)
 
 ---
 
@@ -198,11 +198,255 @@ package-lock.json               # Versões exatas das dependências
 
 ---
 
-## 🧰 Recursos Complementares
+
+## ✅ Criação dos Testes
+
+### 1. Teste Simples de Cadastro
+
+Nesta primeira etapa, vamos criar um teste básico de cadastro no site **[SeuBarriga](https://seubarriga.wcaquino.me/login)**, sem usar hooks nem comandos personalizados.
+
+```javascript
+describe('Registrar', () => {
+  it('deve criar uma conta com sucesso', () => {
+    cy.visit('/')
+
+    cy.contains('a', 'Novo usuário?').should('be.visible').click()
+
+    cy.get('input[name="nome"]').should('be.visible').type('QA Cristiano')
+    cy.get('input[name="email"]').should('be.visible').type('teste-qa@teste.com')
+    cy.get('input[name="senha"]').should('be.visible').type('abc@123')
+
+    cy.contains('input', 'Cadastrar').should('be.visible').click()
+
+    cy.get('.alert-success').should('be.visible')
+  })
+})
+```
+
+![cadastro_com_sucesso](https://github.com/user-attachments/assets/c5a2ceea-64d2-4efc-9fd6-400d64d3fd99)
+
+---
+
+### 2. Teste Simples de Login
+
+Agora, criamos um teste de login usando o mesmo padrão:
+
+```javascript
+  it('Deve realizar o login com o usuário cadastrado', () => {
+    cy.visit('/')
+
+    cy.get('.active > a').should('be.visible')
+
+    cy.get('input[name="email"]').should('be.visible').type('teste-qa-16@teste.com')
+    cy.get('input[name="senha"]').should('be.visible').type('abc@123')
+    cy.contains('button', 'Entrar').should('be.visible').click()
+
+    cy.get('.alert').should('be.visible')
+  });
+})
+```
+
+![login](https://github.com/user-attachments/assets/a35b2a8c-7c17-4947-af69-e582e4afa35d)
+
+---
+
+### 3. Introdução de Hooks
+
+Perceba que chamamos `cy.visit('/')` em ambos os testes. Para evitar repetição, configuramos a URL base em `cypress.config.js` e usamos hooks:
+
+```javascript
+// cypress.config.js
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+  e2e: {
+    baseUrl: "https://seubarriga.wcaquino.me/login",
+    setupNodeEvents(on, config) {
+       // implement node event listeners here
+    },
+  },
+});
+```
+
+**Hooks** são funções executadas antes ou depois dos testes.  
+
+- `before()` executa **uma vez** antes de todos os testes da spec.  
+- `beforeEach()` executa **antes de cada** teste.
+
+Exemplo com `beforeEach()`:
+
+```javascript
+describe('Registrar', () => {
+  beforeEach(() => {
+    // Executado antes de cada it()
+    cy.visit('/')
+  })
+
+  it('deve criar uma conta com sucesso', () => {
+
+    cy.contains('a', 'Novo usuário?').should('be.visible').click()
+
+    cy.get('input[name="nome"]').should('be.visible').type('QA Cristiano')
+
+    cy.get('input[name="email"]').should('be.visible').type('teste-qa-16@teste.com')
+
+    cy.get('input[name="senha"]').should('be.visible').type('abc@123')
+
+    cy.contains('input', 'Cadastrar').should('be.visible').click()
+
+    cy.get('.alert')
+      .should('be.visible')
+  })
+
+  it('Deve realizar o login com o usuário cadastrado', () => {
+
+    cy.get('.active > a').should('be.visible')
+
+    cy.get('input[name="email"]').should('be.visible').type('teste-qa-16@teste.com')
+
+    cy.get('input[name="senha"]').should('be.visible').type('abc@123')
+
+    cy.contains('button', 'Entrar').should('be.visible').click()
+
+    cy.get('.alert')
+      .should('be.visible')
+  });
+})
+```
+
+> Os hooks tornam o spec mais limpo e garantem que cada teste comece no ponto esperado.
+
+---
+
+### 4. Comandos Personalizados (Custom Commands)
+
+Para reduzir ainda mais a repetição, criamos **Custom Commands** em `cypress/support/commands.js`:
+
+```javascript
+// cypress/support/commands.js
+
+Cypress.Commands.add('registoComSucesso', (nome, email, senha) => {
+  cy.contains('a', 'Novo usuário?').click()
+  cy.get('input[name="nome"]').type(nome)
+  cy.get('input[name="email"]').type(email)
+  cy.get('input[name="senha"]').type(senha)
+  cy.contains('input', 'Cadastrar').click()
+})
+
+Cypress.Commands.add('loginComSucesso', (email, senha) => {
+  cy.get('input[name="email"]').type(email)
+  cy.get('input[name="senha"]').type(senha)
+  cy.contains('button', 'Entrar').click()
+})
+
+Cypress.Commands.add('mensagemSucesso', () => {
+  cy.get('.alert').should('be.visible')
+})
+```
+
+E importamos em `cypress/support/e2e.js`:
+
+```javascript
+import './commands'
+```
+
+---
+
+### 5. Testes Refatorados por Partes
+
+**Parte 1: Hooks**
+
+```javascript
+describe('Registrar', () => {
+  beforeEach(() => {
+    cy.visit('/')
+  })
+  it('deve criar uma conta com sucesso', () => {
+    /* código de cadastro */
+  })
+  it('Deve realizar o login com o usuário cadastrado', () => {
+    /* código de login */
+  })
+})
+```
+
+**Parte 2: Hooks + Custom Commands**
+
+```javascript
+describe('Registrar', () => {
+  beforeEach(() => {
+    cy.visit('/')
+  })
+  it('deve criar uma conta com sucesso', () => {
+    cy.registoComSucesso('QA Cristiano', 'teste-qa@teste.com', 'abc@123')
+    cy.mensagemSucesso()
+  })
+  it('Deve realizar o login com o usuário cadastrado', () => {
+    cy.loginComSucesso('teste-qa@teste.com', 'abc@123')
+    cy.mensagemSucesso()
+  })
+})
+```
+
+---
+
+### 🪝 Hooks no Cypress
+
+Os **Hooks** no Cypress são funções especiais que permitem executar trechos de código em momentos específicos do ciclo de vida dos testes. Eles ajudam a manter seu código organizado e evitar duplicação.
+
+#### Principais Hooks
+
+- **`before(fn)`**  
+  Executa uma única vez **antes** de todos os testes do escopo atual (a suite `describe`).
+
+- **`beforeEach(fn)`**  
+  Executa **antes de cada** teste (cada `it`) na suite.
+
+- **`after(fn)`**  
+  Executa uma única vez **após** todos os testes do escopo.
+
+- **`afterEach(fn)`**  
+  Executa **após cada** teste na suite.
+
+---
+
+#### Exemplo Prático
+
+```javascript
+describe('Fluxo de Usuário - Hooks', () => {
+
+  before(() => {
+    cy.log('Iniciando testes do fluxo de usuário')
+  })
+
+  beforeEach(() => {
+    cy.visit('/')
+  })
+
+  it('deve criar uma conta com sucesso', () => {
+    cy.contains('a', 'Novo usuário?').click()
+    cy.get('input[name="nome"]').type('QA Cristiano')
+    cy.get('input[name="email"]').type('teste-qa@teste.com')
+    cy.get('input[name="senha"]').type('abc@123')
+    cy.contains('input', 'Cadastrar').click()
+    cy.get('.alert-success').should('be.visible')
+  })
+
+  it('deve fazer login com sucesso', () => {
+    cy.get('input[name="email"]').type('teste-qa@teste.com')
+    cy.get('input[name="senha"]').type('abc@123')
+    cy.contains('button', 'Entrar').click()
+    cy.get('.alert').should('be.visible')
+  })
+
+})
+```
+
+---
+
+### 🧰 Recursos Complementares
 
 - :bookmark: [Documentação Cypress](https://docs.cypress.io)
 - :open_book: [Frameworks de Teste](./frameworks.md)
 
----
 
-📌 **Este projeto está em construção. Novas seções e exemplos serão adicionados em breve.**
