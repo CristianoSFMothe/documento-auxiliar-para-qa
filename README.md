@@ -11,7 +11,9 @@ A seguir, você encontrará uma **navegação estruturada** para os principais d
 ### 📜 **Documentação de Qualidade**
 
 - **Cenários e Casos de Teste**  
-  📄 [Leia o documento completo aqui](./Documentação%20da%20Qualidade/README.md)  
+  📄 [Leia o documento completo aqui](./Documentacao_da_qualidade/Cenarios_e_cassos_%20de_testes/cenarios_testes.md)
+
+  [teste](./Documentacao_da_qualidade/Cenarios_e_cassos_%20de_testes/cenarios_testes.md)
   Aqui você encontrará exemplos práticos, cenários de testes e a documentação completa para a criação de **casos de teste** e **estratégias de qualidade**.
 
 ---
@@ -21,7 +23,7 @@ A seguir, você encontrará uma **navegação estruturada** para os principais d
 #### 📝 **Plano de Estudos CFTL**
 
 - **Plano de Estudos Completo**  
-  📄 [Baixe o arquivo PDF aqui](./Trilhas%20de%20Estudos%20QA/Planos%20de%20Estudos/Plano_de_Estudos_CTFL.pdf)  
+  📄 [Baixe o arquivo PDF aqui](./Trilhas_de_estudos_QA/Planos_de_estudos/Plano_de_Estudos_CTFL.pdf)  
   Este plano detalha o caminho de aprendizado para QA, com tópicos essenciais e recursos para o estudo contínuo.
 
 #### 📘 **Material de Estudo**
