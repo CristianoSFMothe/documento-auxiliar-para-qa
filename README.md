@@ -23,6 +23,7 @@ A seguir, você encontrará uma **navegação estruturada** para os principais d
 
 - **Plano de Estudos Completo**  
   📄 <a href="./trilhas-de-estudos/planos-de-estudos/CTFL.pdf" download>Baixe o arquivo PDF aqui</a>
+  
   Este plano detalha o caminho de aprendizado para QA, com tópicos essenciais e recursos para o estudo contínuo.
 
 #### 📘 **Material de Estudo**
