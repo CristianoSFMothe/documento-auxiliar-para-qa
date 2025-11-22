@@ -44,10 +44,10 @@ Para complementar o conteúdo e visualizar as ferramentas em prática, aqui est�
 
 ---
 
-:open_book: **[Material de Estudo](./ferramentas_de_estudo.md)**
+:open_book: **[Material de Estudo](./ferramentas-de-estudo.md)**
 
-:open_book: **[Ferramentas Gestão](./ferramentas_gestao.md)**
+:open_book: **[Ferramentas Gestão](./ferramentas-gestao.md)**
 
-:open_book: **[Ferramentas Testes de API](./ferramentas_teste_api.md)**
+:open_book: **[Ferramentas Testes de API](./ferramentas-teste-api.md)**
 
-:open_book: **[Linguagem Programação](./linguagem_programacao.md)**
+:open_book: **[Linguagem Programação](./linguagem-programacao.md)**

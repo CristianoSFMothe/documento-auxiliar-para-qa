@@ -215,7 +215,6 @@ package-lock.json               # Versões exatas das dependências
 ## 🧰 Recursos Complementares
 
 - :bookmark: [Documentação Cypress](https://docs.cypress.io)
-- :open_book: [Frameworks de Teste](./frameworks.md)
 
 ---
 

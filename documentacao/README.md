@@ -34,6 +34,6 @@ Esses documentos são elaborados de forma genérica, para que possam ser facilme
 
 ---
 
-:open_book: **[Documentação da Qualidade](./Cenarios_e_cassos*%20de_testes/cenarios_testes.md)**
+:open_book: **[Documentação da Qualidade](./cenarios-e-casos-de_testes/cenarios-testes.md)**
 
 ![Imagem de Qualidade de Software](https://github.com/user-attachments/assets/fe297c15-28e8-4fdb-81cc-629bd9618a95)

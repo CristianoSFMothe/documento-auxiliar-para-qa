@@ -92,10 +92,10 @@ O **TestLink** é uma solução gratuita e de código aberto para gestão de tes
 
 ---
 
-:open_book: **[Material de Estudo](./ferramentas_de_estudo.md)**
+:open_book: **[Material de Estudo](./ferramentas-de-estudo.md)**
 
-:open_book: **[Ferramentas Testes de API](./ferramentas_teste_api.md)**
+:open_book: **[Ferramentas Testes de API](./ferramentas-teste_api.md)**
 
-:open_book: **[Canais YouTube Ferramenta de Gestão](./canais_youtube_gestao.md)**
+:open_book: **[Canais YouTube Ferramenta de Gestão](./canais-youtube-gestao.md)**
 
-:open_book: **[Linguagem Programação](./linguagem_programacao.md)**
+:open_book: **[Linguagem Programação](./linguagem-programacao.md)**

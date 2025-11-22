@@ -22,14 +22,14 @@ A seguir, você encontrará uma **navegação estruturada** para os principais d
 #### 📝 **Plano de Estudos CFTL**
 
 - **Plano de Estudos Completo**  
-  📄 [Baixe o arquivo PDF aqui](./Trilhas_de_estudos_QA/Planos_de_estudos/Plano_de_Estudos_CTFL.pdf)  
+  📄 <a href="./trilhas-de-estudos/planos-de-estudos/CTFL.pdf" download>Baixe o arquivo PDF aqui</a>
   Este plano detalha o caminho de aprendizado para QA, com tópicos essenciais e recursos para o estudo contínuo.
 
 #### 📘 **Material de Estudo**
 
 - **Conteúdo Adicional e Recursos**  
-  [📖 Acesse o material de estudo aqui](./Trilhas%20de%20Estudos%20QA/README.md)  
-  Uma coleção de materiais, links, tutoriais e vídeos para enriquecer seu conhecimento sobre QA.
+  [📖 Acesse o material de estudo aqui](./trilhas-de-estudos/README.md)  
+   Uma coleção de materiais, links, tutoriais e vídeos para enriquecer seu conhecimento sobre QA.
 
 ---
 
