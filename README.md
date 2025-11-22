@@ -11,9 +11,8 @@ A seguir, você encontrará uma **navegação estruturada** para os principais d
 ### 📜 **Documentação de Qualidade**
 
 - **Cenários e Casos de Teste**  
-  📄 [Leia o documento completo aqui](./Documentacao_da_qualidade/Cenarios_e_cassos_%20de_testes/cenarios_testes.md)
+  📄 [Leia o documento completo aqui](./documentacao/cenarios-e-casos-de_testes/cenarios-testes.md)
 
-  [teste](./Documentacao_da_qualidade/Cenarios_e_cassos_%20de_testes/cenarios_testes.md)
   Aqui você encontrará exemplos práticos, cenários de testes e a documentação completa para a criação de **casos de teste** e **estratégias de qualidade**.
 
 ---
