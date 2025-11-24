@@ -41,37 +41,37 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 ## 📺 Aulas no YouTube – Programação Geral
 
 - **Canal Boson Treinamentos**  
-  ▶️ [Playlist completa de programação](https://youtube.com/playlist?list=PLucm8g_ezqNrWAQH2B_0AnrFY5dJcgOLR)
+  ▶️ <a href="https://youtube.com/playlist?list=PLucm8g_ezqNrWAQH2B_0AnrFY5dJcgOLR" target="_blank">Playlist completa de programação</a>
 
 - **Canal Curso em Vídeo**  
-  ▶️ [Introdução à programação](https://youtu.be/Ofktsne-utM)
+  ▶️ <a href="https://youtu.be/Ofktsne-utM" target="_blank">Introdução à programação</a>
 
 ---
 
 ## 🧠 Lógica de Programação (Conteúdo 9º ano e Iniciantes)
 
 - **Canal Curso em Vídeo**  
-  ▶️ [Lógica de Programação para iniciantes](https://youtu.be/8mei6uVttho)
+  ▶️ <a href="https://youtu.be/8mei6uVttho" target="_blank">Lógica de Programação para iniciantes</a>
 
 - **Canal Boson Treinamentos**  
-  ▶️ [Aula de Lógica](https://youtu.be/41ubXTEPFO0)
+  ▶️ <a href="https://youtu.be/41ubXTEPFO0" target="_blank">Aula de Lógica</a>
 
 ---
 
 ## 📜 Cursos Gratuitos com Certificado
 
-- [Digital Innovation One (DIO)](https://www.dio.me/)
+- <a href="https://www.dio.me/" target="_blank">Digital Innovation One (DIO)</a>
 
   > Plataforma com dezenas de cursos sobre **JavaScript, Python, Java, Banco de Dados, Algoritmos**, e muito mais.
 
-- [Cod3r](https://www.cod3r.com.br/courses/javascript-funcional-fundamentos)
+- <a href="https://www.cod3r.com.br/courses/javascript-funcional-fundamentos" target="_blank">Cod3r</a>
   > Curso gratuito sobre **JavaScript funcional**.
 
 ---
 
 ## 🎓 Curso com Certificado (Pago)
 
-- [Curso em Vídeo – Curso de Algoritmo](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
+- <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank">Curso em Vídeo – Curso de Algoritmo</a>
   > Curso estruturado, com certificado pago. Excelente para reforçar a lógica de programação.
 
 ---
@@ -81,13 +81,13 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 ### 🔸 JavaScript
 
 - **Curso em Vídeo – JavaScript Completo**  
-  ▶️ [Playlist](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
+  ▶️ <a href="https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank">Playlist</a>
 
 - **Talking About Testing**  
-  ▶️ [Playlist JavaScript e Testes](https://www.youtube.com/playlist?list=PL-eblSNRj0QH36XrwvGfhh14GjpG-ViS2)
+  ▶️ <a href="https://www.youtube.com/playlist?list=PL-eblSNRj0QH36XrwvGfhh14GjpG-ViS2" target="_blank">Playlist JavaScript e Testes</a>
 
 - **Dev Aprender**  
-  ▶️ [Introdução ao JavaScript](https://youtu.be/i6Oi-YtXnAU)
+  ▶️ <a href="https://youtu.be/i6Oi-YtXnAU" target="_blank">Introdução ao JavaScript</a>
 
 ---
 
@@ -99,7 +99,7 @@ Não se preocupe em aprender tudo de uma vez. Comece pela **lógica de programa�
 
 ### 🧰 Outros materiais úteis:
 
-:open_book: **[Material de Estudo](./ferramentas_de_estudo.md)**  
-:open_book: **[Ferramentas de Gestão](./ferramentas_gestao.md)**  
-:open_book: **[Ferramentas para Testes de API](./ferramentas_teste_api.md)**  
-:open_book: **[Canais do YouTube sobre Gestão](./canais_youtube_gestao.md)**
+:open_book: <a href="./material-de-estudo.md" target="_blank">**Material de Estudo**</a>  
+:open_book: <a href="./ferramentas_gestao.md" target="_blank">**Ferramentas de Gestão**</a>  
+:open_book: <a href="./ferramentas_teste_api.md" target="_blank">**Ferramentas para Testes de API**</a>  
+:open_book: <a href="./canais_youtube_gestao.md" target="_blank">**Canais do YouTube sobre Gestão**</a>
