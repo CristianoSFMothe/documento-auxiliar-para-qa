@@ -41,38 +41,39 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 ## 📺 Aulas no YouTube – Programação Geral
 
 - **Canal Boson Treinamentos**  
-  ▶️ <a href="https://youtube.com/playlist?list=PLucm8g_ezqNrWAQH2B_0AnrFY5dJcgOLR" target="_blank">Playlist completa de programação</a>
+  ▶️ <a href="https://youtube.com/playlist?list=PLucm8g_ezqNrWAQH2B_0AnrFY5dJcgOLR" _target="_blank">Playlist completa de programação</a>
 
 - **Canal Curso em Vídeo**  
-  ▶️ <a href="https://youtu.be/Ofktsne-utM" target="_blank">Introdução à programação</a>
+  ▶️ <a href="https://youtu.be/Ofktsne-utM" _target="_blank">Introdução à programação</a>
 
 ---
 
 ## 🧠 Lógica de Programação (Conteúdo 9º ano e Iniciantes)
 
 - **Canal Curso em Vídeo**  
-  ▶️ <a href="https://youtu.be/8mei6uVttho" target="_blank">Lógica de Programação para iniciantes</a>
+  ▶️ <a href="https://youtu.be/8mei6uVttho" _target="_blank">Lógica de Programação para iniciantes</a>
 
 - **Canal Boson Treinamentos**  
-  ▶️ <a href="https://youtu.be/41ubXTEPFO0" target="_blank">Aula de Lógica</a>
+  ▶️ <a href="https://youtu.be/41ubXTEPFO0" _target="_blank">Aula de Lógica</a>
 
 ---
 
 ## 📜 Cursos Gratuitos com Certificado
 
-- <a href="https://www.dio.me/" target="_blank">Digital Innovation One (DIO)</a>
+- <a href="https://www.dio.me/" _target="_blank">Digital Innovation One (DIO)</a>
 
-  > Plataforma com dezenas de cursos sobre **JavaScript, Python, Java, Banco de Dados, Algoritmos**, e muito mais.
+> Plataforma com dezenas de cursos sobre **JavaScript, Python, Java, Banco de Dados, Algoritmos**, e muito mais.
 
-- <a href="https://www.cod3r.com.br/courses/javascript-funcional-fundamentos" target="_blank">Cod3r</a>
+- <a href="https://www.cod3r.com.br/courses/javascript-funcional-fundamentos" _target="_blank">Cod3r</a>
   > Curso gratuito sobre **JavaScript funcional**.
 
 ---
 
 ## 🎓 Curso com Certificado (Pago)
 
-- <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank">Curso em Vídeo – Curso de Algoritmo</a>
-  > Curso estruturado, com certificado pago. Excelente para reforçar a lógica de programação.
+- <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" _target="_blank">Curso em Vídeo – Curso de Algoritmo</a>
+
+> Curso estruturado, com certificado pago. Excelente para reforçar a lógica de programação.
 
 ---
 
@@ -81,13 +82,13 @@ Responsável por **armazenar, organizar e recuperar informações**. Programador
 ### 🔸 JavaScript
 
 - **Curso em Vídeo – JavaScript Completo**  
-  ▶️ <a href="https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank">Playlist</a>
+  ▶️ <a href="https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" _target="_blank">Playlist</a>
 
 - **Talking About Testing**  
-  ▶️ <a href="https://www.youtube.com/playlist?list=PL-eblSNRj0QH36XrwvGfhh14GjpG-ViS2" target="_blank">Playlist JavaScript e Testes</a>
+  ▶️ <a href="https://www.youtube.com/playlist?list=PL-eblSNRj0QH36XrwvGfhh14GjpG-ViS2" _target="_blank">Playlist JavaScript e Testes</a>
 
 - **Dev Aprender**  
-  ▶️ <a href="https://youtu.be/i6Oi-YtXnAU" target="_blank">Introdução ao JavaScript</a>
+  ▶️ <a href="https://youtu.be/i6Oi-YtXnAU" _target="_blank">Introdução ao JavaScript</a>
 
 ---
 
@@ -99,7 +100,7 @@ Não se preocupe em aprender tudo de uma vez. Comece pela **lógica de programa�
 
 ### 🧰 Outros materiais úteis:
 
-:open_book: <a href="./material-de-estudo.md" target="_blank">**Material de Estudo**</a>  
-:open_book: <a href="./ferramentas_gestao.md" target="_blank">**Ferramentas de Gestão**</a>  
-:open_book: <a href="./ferramentas_teste_api.md" target="_blank">**Ferramentas para Testes de API**</a>  
-:open_book: <a href="./canais_youtube_gestao.md" target="_blank">**Canais do YouTube sobre Gestão**</a>
+:open_book: **[Material de Estudo](./material-de-estudo.md)**  
+:open_book: **[Ferramentas de Gestão](./ferramentas-gestao.md)**  
+:open_book: **[Ferramentas para Testes de API](./ferramentas-teste-api.md)**  
+:open_book: **[Canais do YouTube sobre Gestão](./canais-youtube-gestao.md)**

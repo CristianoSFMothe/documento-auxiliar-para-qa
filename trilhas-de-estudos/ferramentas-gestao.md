@@ -4,11 +4,13 @@ Este documento apresenta uma visão geral das principais ferramentas utilizadas 
 
 ---
 
-### 📌 [Trello](https://trello.com/)
+### 📌 **<a href="https://trello.com/" _target="_blank">Trello</a>**
 
 > **Tipo:** Kanban / Gestão visual  
 > **Plataforma:** Nuvem (Web, Mobile)  
 > **Indicado para:** Pequenos times e projetos enxutos
+
+<br />
 
 O **Trello** é uma ferramenta visual baseada em quadros, listas e cartões. Embora não seja específica para testes de software, é bastante usada por QAs para organizar ciclos de testes, backlog de casos e bugs.
 
@@ -23,13 +25,15 @@ O **Trello** é uma ferramenta visual baseada em quadros, listas e cartões. Emb
 
 ---
 
-### 🐞 [Jira](https://www.atlassian.com/software/jira)
+### 🐞 **<a href="https://www.atlassian.com/software/jira" _target="_blank">Jira</a>**
 
 > **Tipo:** Gestão Ágil de Projetos  
 > **Plataforma:** Nuvem e Self-hosted  
 > **Indicado para:** Times ágeis e grandes organizações
 
-O **Jira** é amplamente utilizado no desenvolvimento ágil e pode ser transformado em uma plataforma poderosa de QA quando combinado com plugins como [**Xray**](https://www.getxray.app/) ou [**Zephyr**](https://www.smartbear.com/product/zephyr/overview/).
+<br />
+
+O **Jira** é amplamente utilizado no desenvolvimento ágil e pode ser transformado em uma plataforma poderosa de QA quando combinado com plugins como **<a href="https://www.getxray.app/" _target="_blank">Xray</a>** ou **<a href="https://www.smartbear.com/product/zephyr/overview/" _target="_blank">Zephyr</a>**.
 
 **Funcionalidades destacadas:**
 
@@ -42,7 +46,7 @@ O **Jira** é amplamente utilizado no desenvolvimento ágil e pode ser transform
 
 ---
 
-### 📋 [Qase.io](https://qase.io/)
+### 📋 **<a href="https://qase.io/" _target="_blank">Qase.io</a>**
 
 > **Tipo:** Plataforma moderna de Test Management  
 > **Plataforma:** Nuvem  
@@ -62,7 +66,7 @@ O **Qase** é uma ferramenta moderna, focada exclusivamente na gestão de testes
 
 ---
 
-### 🧷 [TestLink](https://testlink.org/)
+### 🧷 **<a href="https://testlink.org/" _target="_blank">TestLink</a>**
 
 > **Tipo:** Ferramenta open-source de Test Management  
 > **Plataforma:** Self-hosted  
@@ -83,18 +87,18 @@ O **TestLink** é uma solução gratuita e de código aberto para gestão de tes
 
 ### 📈 Comparativo Rápido
 
-| Ferramenta                                                 | Testes Automatizados | Integração com CI/CD | Nuvem / Local | Facilidade de Uso |
-| ---------------------------------------------------------- | -------------------- | -------------------- | ------------- | ----------------- |
-| [Trello](https://trello.com)                               | ❌                   | ❌                   | Nuvem         | ⭐⭐⭐⭐☆         |
-| [Jira](https://www.atlassian.com/software/jira) (+ plugin) | ✅                   | ✅                   | Nuvem / Local | ⭐⭐⭐☆☆          |
-| [Qase.io](https://qase.io)                                 | ✅                   | ✅                   | Nuvem         | ⭐⭐⭐⭐☆         |
-| [TestLink](https://testlink.org)                           | ✅ (com configs)     | ✅ (com configs)     | Local         | ⭐⭐☆☆☆           |
+| Ferramenta    | Testes Automatizados | Integração com CI/CD | Nuvem / Local | Facilidade de Uso |
+| ------------- | -------------------- | -------------------- | ------------- | ----------------- |
+| Trello        | ❌                   | ❌                   | Nuvem         | ⭐⭐⭐⭐☆         |
+| Jira + plugin | ✅                   | ✅                   | Nuvem / Local | ⭐⭐⭐☆☆          |
+| Qase          | ✅                   | ✅                   | Nuvem         | ⭐⭐⭐⭐☆         |
+| TestLink      | ✅ (com configs)     | ✅ (com configs)     | Local         | ⭐⭐☆☆☆           |
 
 ---
 
 :open_book: **[Material de Estudo](./ferramentas-de-estudo.md)**
 
-:open_book: **[Ferramentas Testes de API](./ferramentas-teste_api.md)**
+:open_book: **[Ferramentas Testes de API](./ferramentas-teste-api.md)**
 
 :open_book: **[Canais YouTube Ferramenta de Gestão](./canais-youtube-gestao.md)**
 

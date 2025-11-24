@@ -6,72 +6,76 @@ Aqui estão algumas ferramentas essenciais para testar APIs REST, tanto manualme
 
 ### 🔸 **Postman**
 
-- 📥 **[Download do Postman](https://www.postman.com/downloads/)**
-- 📚 **[Documentação Oficial](https://www.postman.com/api-documentation-tool/)**
+- 📥 <a href="https://www.postman.com/downloads/" _target="_blank">**Download do Postman**</a>
+- 📚 <a href="https://www.postman.com/api-documentation-tool/" _target="_blank">**Documentação Oficial**</a>
 
 #### 🎥 Aulas no YouTube:
 
 - **Canal Pessonizando**  
-  ▶️ [Playlist completa](https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs)
+  ▶️ <a href="https://www.youtube.com/playlist?list=PLEqTHftpM91OzKYUkpaEuByhSpJYc90Hs" _target="_blank">Playlist completa</a>
 
-  > Série completa e prática para quem deseja aprender **Postman do zero** ao avançado.
+> Série completa e prática para quem deseja aprender **Postman do zero** ao avançado.
 
 - **Canal Julio de Lima**  
-  ▶️ [Como testar APIs com Postman](https://www.youtube.com/watch?v=5S9mMBEtJK4)
+  ▶️ <a href="https://www.youtube.com/watch?v=5S9mMBEtJK4" _target="_blank">Como testar APIs com Postman</a>
 
-  > Aula introdutória sobre conceitos de API e testes com Postman.
+> Aula introdutória sobre conceitos de API e testes com Postman.
 
 - **Canal Luiz Tools**  
-  ▶️ [Testando APIs com Postman](https://youtu.be/tWu5eoFeIVQ)
+  ▶️ <a href="https://youtu.be/tWu5eoFeIVQ" _target="_blank">Testando APIs com Postman</a>
 
-  > Explicação simples e direta, ideal para iniciantes.
+> Explicação simples e direta, ideal para iniciantes.
 
 - **Canal Iterasys**  
-  ▶️ [Live prática de API com Postman](https://www.youtube.com/live/_QEXdvw4VMY?feature=share)
-  > Conteúdo atualizado sobre automação de testes via Postman.
+   ▶️ <a href="https://www.youtube.com/live/_QEXdvw4VMY?feature=share" _target="_blank">Live prática de API com Postman</a>
+
+> Conteúdo atualizado sobre automação de testes via Postman.
 
 ---
 
 ### 🔸 **Insomnia**
 
-- 📥 **[Download do Insomnia](https://insomnia.rest/download)**
-- 📚 **[Documentação Oficial](https://docs.insomnia.rest/)**
+- 📥 <a href="https://insomnia.rest/download" _target="_blank">**Download do Insomnia**</a>
+- 📚 <a href="https://docs.insomnia.rest/" _target="_blank">**Documentação Oficial**</a>
 
 #### 🎥 Aulas no YouTube:
 
 - **Canal Julio de Lima**  
-  ▶️ [Introdução ao Insomnia - Parte 1](https://www.youtube.com/watch?v=9ASTvnXsKDk)  
-  ▶️ [Introdução ao Insomnia - Parte 2](https://www.youtube.com/watch?v=2O8FHmHKMfM)
+  ▶️ <a href="https://www.youtube.com/watch?v=9ASTvnXsKDk" _target="_blank">Introdução ao Insomnia - Parte 1</a>
+  ▶️ <a href="https://www.youtube.com/watch?v=2O8FHmHKMfM" _target="_blank">Introdução ao Insomnia - Parte 2</a>
 
-  > Dois vídeos curtos que mostram desde a instalação até execução de requisições REST.
+> Dois vídeos curtos que mostram desde a instalação até execução de requisições REST.
 
 - **Canal Priscila Caimi**  
-  ▶️ [Testes de API com Insomnia](https://youtu.be/XtWZ0L__n1I)
+  ▶️ <a href="https://youtu.be/XtWZ0L__n1I" _target="_blank">Testes de API com Insomnia</a>
 
-  > Aula prática com demonstração de funcionalidades da ferramenta.
+> Aula prática com demonstração de funcionalidades da ferramenta.
 
 - **Canal Ronan Adriel Zenatti**  
-  ▶️ [Insomnia para testes de API REST](https://youtu.be/022dOdiAA8Q)
-  > Explicação passo a passo de como utilizar a ferramenta para testar rotas.
+  ▶️ <a href="https://youtu.be/022dOdiAA8Q" _target="_blank">Insomnia para testes de API REST</a>
+
+> Explicação passo a passo de como utilizar a ferramenta para testar rotas.
 
 ---
 
 ### 🔸 **Swagger**
 
-- 📚 **[Documentação do Swagger](https://swagger.io/solutions/api-testing/)**
+- 📚 <a href="https://swagger.io/solutions/api-testing/" _target="_blank">**Documentação do Swagger**</a>
 
 #### 🎥 Aula no YouTube:
 
 - **Canal Julio de Lima**  
-  ▶️ [O que é Swagger e como usar](https://youtu.be/cOhguRdlr5A)
-  > Explicação didática sobre a **documentação e testes de API com Swagger**.
+  ▶️ <a href="https://youtu.be/cOhguRdlr5A" _target="_blank">O que é Swagger e como usar</a>
+
+> Explicação didática sobre a **documentação e testes de API com Swagger**.
 
 ---
 
 ### 🐱 **Extras para Testes de API**
 
-- 📦 **[HTTP Cat](https://http.cat/)**
-  > Site visual com **todos os códigos de status HTTP** ilustrados com gatos 🐾. Excelente para aprendizados e apresentações sobre APIs.
+- 📦 <a href="https://http.cat/" _target="_blank">**HTTP Cat**</a>
+
+> Site visual com **todos os códigos de status HTTP** ilustrados com gatos 🐾. Excelente para aprendizados e apresentações sobre APIs.
 
 ---
 

@@ -33,14 +33,14 @@ Os **testes de performance** têm como objetivo avaliar o **comportamento de um 
 - Interface gráfica e possibilidade de execução em linha de comando.
 - Suporta testes distribuídos.
 
-👉 Site: [https://jmeter.apache.org](https://jmeter.apache.org)
+👉 Site: **<a href="https://jmeter.apache.org" _target="_blank">Apache JMeter Oficial</a>**
 
 ---
 
 ### 2. **K6 (by Grafana)**
 
 - Ferramenta moderna e baseada em código JavaScript para testes de carga e performance.
-- Foco em testes de APIs e microserviços.
+- Foco em testes de APIs e microsserviços.
 - Permite fácil integração com CI/CD.
 - Excelente suporte a relatórios e visualização no Grafana Cloud.
 
@@ -56,7 +56,7 @@ export default function () {
 }
 ```
 
-👉 Site: [https://k6.io](https://k6.io)
+👉 Site: \*\*<a href="https://k6.io" _target="_blank">k6</a>
 
 ---
 
@@ -67,7 +67,7 @@ export default function () {
 - Interface web para monitoramento em tempo real.
 - Boa escolha para times Pythonistas.
 
-👉 Site: [https://locust.io](https://locust.io)
+👉 Site: **<a href="https://locust.io" _target="_blank">Locust</a>**
 
 ---
 
@@ -89,7 +89,7 @@ scenarios:
           url: "/users"
 ```
 
-👉 Site: [https://www.artillery.io](https://www.artillery.io)
+👉 Site: **<a href="https://www.artillery.io" _target="_blank">Artillery</a>**
 
 ---
 
@@ -99,10 +99,10 @@ scenarios:
 - Muito usada em ambientes corporativos e integrações com Jenkins.
 - Interface visual (Gatling FrontLine) disponível como produto comercial.
 
-👉 Site: [https://gatling.io](https://gatling.io)
+👉 Site: **<a href="https://gatling.io" _target="_blank">Gatling</a>**
 
 ---
 
 ## 📈 Considerações Finais
 
-Testes de performance são essenciais para garantir a **resiliência e escalabilidade** de aplicações modernas, principalmente em arquiteturas distribuídas, como microserviços e aplicações em nuvem. A escolha da ferramenta dependerá da **linguagem usada, infraestrutura, tipo de aplicação** e **integrações com o pipeline de CI/CD**.
+Testes de performance são essenciais para garantir a **resiliência e escalabilidade** de aplicações modernas, principalmente em arquiteturas distribuídas, como microsserviços e aplicações em nuvem. A escolha da ferramenta dependerá da **linguagem usada, infraestrutura, tipo de aplicação** e **integrações com o pipeline de CI/CD**.

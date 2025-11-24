@@ -4,7 +4,8 @@ Neste repositório, você encontrará alguns modelos de **Cenários de Teste** e
 
 ### 🗂 Modelos Disponíveis:
 
-- **Modelo 01**: [Acesse o modelo de Cenário e Caso de Testes](https://docs.google.com/spreadsheets/d/1n7xV0nude2OiHTNd5-fvO4XLfHbMpa0XOcbASSw-7kw/edit?usp=sharing)
+- **Modelo 01**: **<a href="https://docs.google.com/spreadsheets/d/1n7xV0nude2OiHTNd5-fvO4XLfHbMpa0XOcbASSw-7kw/edit?usp=sharing" _target="_blank">Acesse o modelo de Cenário e Caso de Testes</a>**
+
   - Este modelo serve como um exemplo prático de como estruturar os cenários e casos de teste de forma objetiva e bem organizada.
 
 ### 📌 Como Utilizar:

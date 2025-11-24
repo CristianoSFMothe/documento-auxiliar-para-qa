@@ -72,5 +72,5 @@ Se você tiver alguma dúvida, sugestão de melhoria ou encontrar um problema no
 
 Caso queira conversar, esclarecer dúvidas ou trocar ideias, você pode me encontrar nos seguintes links:
 
-- **LinkedIn**: [Cristiano da Silva Ferreira](https://www.linkedin.com/in/cristiano-da-silva-ferreira/)
-- **Portfólio**: [Portfolio QA Cristiano](https://portfolio-qa-cristiano.vercel.app/)
+- **LinkedIn**: <a href="https://www.linkedin.com/in/cristiano-da-silva-ferreira/" _target="_blank">Cristiano da Silva Ferreira</a>
+- **Portfólio**: <a href="https://portfolio-qa-cristiano.vercel.app/" _target="_blank">Portfolio QA Cristiano</a>
